@@ -30,7 +30,7 @@ by Robert Fitak
 
 
 ### Module 4:  Simple processing of genetic data on the CLI
-
+- [Bioinformatic One-liners]()
 
 ### Module 5:  Working with next-generation sequencing (NGS) data (cleaning, processing, mapping, assembling, etc)
 
