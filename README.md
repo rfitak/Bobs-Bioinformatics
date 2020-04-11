@@ -51,6 +51,7 @@ by Robert Fitak
 - Full R courses, online and FREE :)
   - [swirl](http://swirlstats.com/): “swirl teaches you R programming and data science interactively, at your own pace, and right in the R console”
   - [HarvardX Biomedical Data Science Open Online Training](http://rafalab.github.io/pages/harvardx.html)
+  - [One Page R](https://togaware.com/onepager/) by Togaware
   - [The R programming class on Coursera](https://www.coursera.org/course/rprog), taught by Roger Peng, Jeff Leek and Brian Caffo
   - [The Data Science Toolbox](https://www.coursera.org/course/datascitoolbox) class on Coursera, taught by the instructors above.
   - [Code School’s free try R](http://tryr.codeschool.com/) class  (__free with trial__)
