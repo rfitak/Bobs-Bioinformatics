@@ -6,8 +6,8 @@ by Robert Fitak
 ---
 
 ### Module 1: If you are asking "Why should I even learn this stuff?"
-- I recommend you start by readinng some of these publications that illustrate the importance of bioinformatics and computational biology
-  - __[All biology is computational biology]__(https://doi.org/10.1371/journal.pbio.2002050) by Florian Markowetz 
+- I recommend you start by reading some of these publications that illustrate the importance of bioinformatics and computational biology
+  - __[All biology is computational biology](https://doi.org/10.1371/journal.pbio.2002050)__ by Florian Markowetz 
 - fdgdfg
 - fgdfgfdg
 
