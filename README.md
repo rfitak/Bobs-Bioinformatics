@@ -58,6 +58,8 @@ by Robert Fitak
 ### Other Resources
 - [Applied Computational Genomics](https://github.com/quinlan-lab/applied-computational-genomics) course by Aaron Quinlan
   - one of the best and most thorough set of course materials for learning computational biology
+- [Introduction to Computational Biology](https://biodatascience.github.io/compbio/) by Michael Love
+  - Lots of super handy little vignettes for learning various tools or dealing with various issues.
 - [Bioinformatics Workbook](https://bioinformaticsworkbook.org)
   - a reasonable set of quick tutorials to do a variety of different things with biologival, especially, genetic data
 - [Learning Bioinformatics at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) by the Harvard Informatics Group
