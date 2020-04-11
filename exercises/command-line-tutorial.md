@@ -240,7 +240,7 @@ Is the `Practice` directory still there?
 
 ## Test time!
 Now, on your own I want you to:
-1. Create a directory in your Desktop called "GDW_2019_PRACTICE"
+1. Create a directory in your Desktop called "2020_PRACTICE"
 2. Make a file called "sequences.fasta" in this new folder.
 3. Write the sequence "ATGCGT" to the file "sequences.fasta"
 4. Record the file size in bytes.
@@ -306,6 +306,6 @@ cut -d"," -f3-7 file.csv
 - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
 - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
-- [cheat sheet 1](./cheatsheet1.pdf)
-- [cheat sheet 2](./cheatsheet2.pdf)
-- [cheat sheet 3](./cheatsheet3.pdf)
+- [cheat sheet 1](../pdfcheatsheet1.pdf)
+- [cheat sheet 2](../pdf/cheatsheet2.pdf)
+- [cheat sheet 3](../pdf/cheatsheet3.pdf)
