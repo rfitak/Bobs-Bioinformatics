@@ -37,6 +37,10 @@ by Robert Fitak
 ### Module 6:  R
 - [R Cheatsheet](./pdf/Rcard.pdf)
   - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
+- [A Guide to Plotting on R](./pdf/R-plotting.pdf)
+  - if you plan on making lots of nice figures for publications, refer to this guide!
+- [Quick R](http://www.statmethods.net/) - I used iy quite a bit for learning the basics
+- [R Cookbook](http://www.cookbook-r.com/) - I never used it but it comes highly recommended
 
 
 ### Module 6:  Python
