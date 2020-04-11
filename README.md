@@ -10,6 +10,7 @@ by Robert Fitak
   - [All biology is computational biology](https://doi.org/10.1371/journal.pbio.2002050) by Florian Markowetz
   - [Progress in bioinformatics and the importance of being earnest](https://doi.org/10.1016/s1387-2656(02)08003-1) by TK Atwood and CJ Miller
   - [Bioinformatics - a new era](https://doi.org/10.1016/S0167-7799(98)00125-5) by Mark Boguski
+  - [Thriving in multidisciplinary research: advice for new bioinformatics students](./pdf/Auerbach-2012.pdf) by Raymond K. Auerbach
   
   
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
