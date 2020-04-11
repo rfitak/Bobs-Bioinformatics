@@ -5,8 +5,13 @@ by Robert Fitak
 
 ---
 
-### Module 1:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
-### Module 2:  Simple processing of genetic data on the CLI
-### Module 3:  The Unix Shell
-### Module 4:  R
-### Module 5:  Python
+### Module 1: If you are asking "Why should I even learn this stuff?"
+- fgfgfdg
+- fdgdfg
+- fgdfgfdg
+
+### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
+### Module 3:  Simple processing of genetic data on the CLI
+### Module 4:  The Unix Shell
+### Module 5:  R
+### Module 6:  Python
