@@ -16,6 +16,7 @@ by Robert Fitak
 - What is the Unix Shell??
   - [Youtube videos by Greg Wilson](https://www.youtube.com/watch?v=U3iNcBtycaQ)
   - [One of my powerpoint lectures](./pdf/Fitak_GWD2019_CommandLine.pdf) by Bob Fitak
+  - [Introduction to the Unix CLI](./exercises/command-line-tutorial.md) tutorial, by Bob Fitak, uses a basic BASH terminal on a Mac
 - Complete introductory Unix CLI training tutorials/courses
   - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
   - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
