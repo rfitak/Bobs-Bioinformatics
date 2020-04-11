@@ -22,7 +22,7 @@ by Robert Fitak
 
 
 ### Module 6:  R
-- [R Cheatsheet]()
+- [R Cheatsheet](./pdf/Rcard.pdf)
   - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
 
 
