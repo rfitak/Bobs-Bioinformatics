@@ -43,7 +43,7 @@ This respository is simply a collection of links, tutorials, code, presentations
 
 
 ### Module 6:  R
-- [An absolute beginner's introduction using R Studio](./exercises/intro_R.md) - made by your's truly for a quick teachinng moment
+- [An absolute beginner's introduction using R Studio](./exercises/intro_R.md) - made by your's truly for a quick teaching moment
 - [R Cheatsheet](./pdf/Rcard.pdf)
   - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
 - [A Guide to Plotting in R](./pdf/R-plotting.pdf)
