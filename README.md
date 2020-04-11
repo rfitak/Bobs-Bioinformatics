@@ -16,3 +16,10 @@ by Robert Fitak
 ### Module 4:  The Unix Shell
 ### Module 5:  R
 ### Module 6:  Python
+
+### Other Resources
+- [Applied Computational Genomics](https://github.com/quinlan-lab/applied-computational-genomics) course by Aaron Quinlan
+  - one of the best and most thorough set of course materials for learning computational biology
+- [Bioinformatics Workbook](https://bioinformaticsworkbook.org)
+  - a reasonable set of quick tutorials to do a variety of different things with biologival, especially, genetic data
+  
