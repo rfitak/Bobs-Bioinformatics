@@ -42,6 +42,12 @@ by Robert Fitak
   - if you plan on making lots of nice figures for publications, refer to this guide!
 - [Quick R](http://www.statmethods.net/) - I used iy quite a bit for learning the basics
 - [R Cookbook](http://www.cookbook-r.com/) - I never used it but it comes highly recommended
+- Full R courses, online and FREE :)
+  - [swirl](http://swirlstats.com/): “swirl teaches you R programming and data science interactively, at your own pace, and right in the R console”
+  - [The R programming class on Coursera](https://www.coursera.org/course/rprog), taught by Roger Peng, Jeff Leek and Brian Caffo
+  - [The Data Science Toolbox](https://www.coursera.org/course/datascitoolbox) class on Coursera, taught by the instructors above.
+  - [Code School’s free try R](http://tryr.codeschool.com/) class
+  - [DataCamp’s free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) class
 
 
 ### Module 6:  Python
