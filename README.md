@@ -13,9 +13,10 @@ by Robert Fitak
   
   
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
-- [Lockdown Learning Bioinformatics](https://www.youtube.com/watch?v=butxOf_fxTY&list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) by Simon Cockell
-  - a 14-part video series on YouTube videos to teach basic bioinformatics from the ground up.  Do 1-a-day!
-- Introductory training tutorials
+- What is the Unix Shell??
+  - [Youtube videos by Greg Wilson](https://www.youtube.com/watch?v=U3iNcBtycaQ)
+  - [One of my powerpoint lectures]() by Bob Fitak
+- Complete introductory Unix CLI training tutorials/courses
   - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
   - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
   - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
@@ -48,3 +49,5 @@ by Robert Fitak
 - [Bioinformatics Workbook](https://bioinformaticsworkbook.org)
   - a reasonable set of quick tutorials to do a variety of different things with biologival, especially, genetic data
 - [Learning Bioinformatics at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) by the Harvard Informatics Group
+- [Lockdown Learning Bioinformatics](https://www.youtube.com/watch?v=butxOf_fxTY&list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) by Simon Cockell
+  - a 14-part video series on YouTube videos to teach basic bioinformatics from the ground up.  Do 1-a-day!
