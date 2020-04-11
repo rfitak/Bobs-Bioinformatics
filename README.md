@@ -8,18 +8,28 @@ by Robert Fitak
 ### Module 1: If you are asking "Why should I even learn this stuff?"
 - I recommend you start by reading some of these publications that illustrate the importance of bioinformatics and computational biology
   - __[All biology is computational biology](https://doi.org/10.1371/journal.pbio.2002050)__ by Florian Markowetz 
-- fdgdfg
-- fgdfgfdg
 
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
+
+
 ### Module 3:  Simple processing of genetic data on the CLI
+
+
 ### Module 4:  The Unix Shell
+
+
 ### Module 5:  R
+- [R Cheatsheet]()
+  - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
+
+
 ### Module 6:  Python
+
+---
 
 ### Other Resources
 - [Applied Computational Genomics](https://github.com/quinlan-lab/applied-computational-genomics) course by Aaron Quinlan
   - one of the best and most thorough set of course materials for learning computational biology
 - [Bioinformatics Workbook](https://bioinformaticsworkbook.org)
   - a reasonable set of quick tutorials to do a variety of different things with biologival, especially, genetic data
-  
+- [Learning Bioinformatics at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) by the Harvard Informatics Group
