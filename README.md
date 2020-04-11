@@ -12,13 +12,16 @@ by Robert Fitak
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
 
 
-### Module 3:  Simple processing of genetic data on the CLI
+### Module 3:  Basic program installation.... every bioinformatician's headache!
 
 
-### Module 4:  The Unix Shell
+### Module 4:  Simple processing of genetic data on the CLI
 
 
-### Module 5:  R
+### Module 5:  Working with next-generation sequencing (NGS) data (cleaning, processing, mapping, assembling, etc)
+
+
+### Module 6:  R
 - [R Cheatsheet]()
   - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
 
