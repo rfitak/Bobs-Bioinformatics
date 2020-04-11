@@ -10,7 +10,14 @@ by Robert Fitak
   - __[All biology is computational biology](https://doi.org/10.1371/journal.pbio.2002050)__ by Florian Markowetz 
 
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
-
+- Introductory traininng tutorials
+  - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
+  - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+  - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
+- Cheat Sheets of Unix Commands!!!!
+  - [cheat sheet 1](./pdf/cheatsheet1.pdf)
+  - [cheat sheet 2](./pdf/cheatsheet2.pdf)
+  - [cheat sheet 3](./pdf/cheatsheet3.pdf)
 
 ### Module 3:  Basic program installation.... every bioinformatician's headache!
 
