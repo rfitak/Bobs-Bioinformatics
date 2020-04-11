@@ -312,7 +312,7 @@ help(edgeR)
 
 ---
 
-I have included a quick reference guide to common R functions [Here](./Rcard.pdf).  If you are ever unsure of how to use a function, try searching the internet (there are TONS of resources) or use the help menu:
+I have included a quick reference guide to common R functions [Here](../pdf/Rcard.pdf).  If you are ever unsure of how to use a function, try searching the internet (there are TONS of resources) or use the help menu:
 ```R
 # Get the help manual for a function
 help(mean)
