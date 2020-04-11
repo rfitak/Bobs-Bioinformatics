@@ -51,3 +51,7 @@ by Robert Fitak
 - [Learning Bioinformatics at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) by the Harvard Informatics Group
 - [Lockdown Learning Bioinformatics](https://www.youtube.com/watch?v=butxOf_fxTY&list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) by Simon Cockell
   - a 14-part video series on YouTube videos to teach basic bioinformatics from the ground up.  Do 1-a-day!
+- [Genomics of Wildlife Disease](https://gdwworkshop.colostate.edu)
+  - [link to the 2017 workshop materials](https://github.com/stenglein-lab/2017_GDW) (lectures, tutorials, exercies, etc.)
+  - [link to the 2018 workshop materials](https://github.com/gdw-workshop/2018_GDW_Workshop/) (lectures, tutorials, exercies, etc.)
+  - [link to the 2019 workshop materials](https://github.com/gdw-workshop/2019_GDW_Workshop) (lectures, tutorials, exercies, etc.)
