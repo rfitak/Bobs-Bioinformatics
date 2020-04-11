@@ -13,7 +13,9 @@ by Robert Fitak
   
   
 ### Module 2:  The basics of the Unix Shell and an introduction to the "command line interface" (CLI)
-- Introductory traininng tutorials
+- [Lockdown Learning Bioinformatics](https://www.youtube.com/watch?v=butxOf_fxTY&list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) by Simon Cockell
+  - a series of YouTube videos to teach basic bioinformatics from the ground up.  Do 1-a-day!
+- Introductory training tutorials
   - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
   - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
   - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
