@@ -10,6 +10,7 @@ by Robert Fitak
   - [All biology is computational biology](https://doi.org/10.1371/journal.pbio.2002050) by Florian Markowetz
   - [Progress in bioinformatics and the importance of being earnest](https://doi.org/10.1016/s1387-2656(02)08003-1) by TK Atwood and CJ Miller
   - [Bioinformatics - a new era](https://doi.org/10.1016/S0167-7799(98)00125-5) by Mark Boguski
+  - [Bioinformatics programs are 31-fold over-represented among the highest impact scientific papers of the past two decades](./pdf/Wren-2016.pdf) by Jonathan D. Wren
   - [Thriving in multidisciplinary research: advice for new bioinformatics students](./pdf/Auerbach-2012.pdf) by Raymond K. Auerbach
   
   
