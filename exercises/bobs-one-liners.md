@@ -19,6 +19,5 @@ sacct -j 179506 -u rfitak --format="CPUTime,MaxRSS,JobID" --units=G
 
 # Set a new default format for job info using ann environmental variable
 export SACCT_FORMAT="JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS"
-sacct -j 179506
-
+sacct -j 179506 --units=G
 ```
