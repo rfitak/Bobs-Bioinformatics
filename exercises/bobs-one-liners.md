@@ -12,7 +12,7 @@ scp -r rfitak@coombs.oit.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
 # rsync
 rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
 ```
-
+<br>
 ### SLURM Quickies
 Short commands I often use to check the status or retrieve innformation about resources (e.g., memory, time) each job used
 ```bash
