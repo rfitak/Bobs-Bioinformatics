@@ -3,8 +3,10 @@
 ### File transfer (`scp`, `rsync`)
 For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
 ```bash
-# scp
+# scp a file
 scp file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
+
+# scp a folder and its contents
 scp -r rfitak@coombs.oit.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
 
 # rsync
