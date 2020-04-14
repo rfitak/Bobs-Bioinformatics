@@ -1,6 +1,18 @@
 # Bob's One Liners
 
+### File transfer (`scp`, `rsync`)
+For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
+```bash
+# scp
+scp file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
+scp -r rfitak@coombs.oit.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
+
+# rsync
+rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
+```
+
 ### SLURM Quickies
+Short commands I often use to check the status or retrieve innformation about resources (e.g., memory, time) each job used
 ```bash
 # Submit a job
 sbatch bobjob1.sh
@@ -20,4 +32,9 @@ sacct -j 179506 -u rfitak --format="CPUTime,MaxRSS,JobID" --units=G
 # Set a new default format for job info using ann environmental variable
 export SACCT_FORMAT="JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS"
 sacct -j 179506 --units=G
+```
+
+### Making and unpacking Tarballs
+```bash
+#TBD
 ```
