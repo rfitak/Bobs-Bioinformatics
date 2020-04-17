@@ -47,9 +47,9 @@ This respository is simply a collection of links, tutorials, code, presentations
 - [R Cheatsheet](./pdf/Rcard.pdf)
   - I used this cheatsheet ___ALL THE TIME___ when I was first learning to use R
 - A whole bunch of [R cheatsheets](https://rstudio.com/resources/cheatsheets/) for various purposes
-  - [ggplot cheatsheet](./pdf/Rcard.pdf)
-  - [machine learning cheatsheet](./pdf/ggplot.pdf)
-- [A Guide to Plotting in R](./pdf/keras.pdf)
+  - [ggplot cheatsheet](./pdf/ggplot.pdf)
+  - [machine learning cheatsheet](./pdf/keras.pdf)
+- [A Guide to Plotting in R](./pdf/R-plotting.pdf)
   - if you plan on making lots of nice figures for publications, refer to this guide!
 - [Quick R](http://www.statmethods.net/) - I used iy quite a bit for learning the basics
 - [R Cookbook](http://www.cookbook-r.com/) - I never used it but it comes highly recommended
