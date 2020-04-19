@@ -35,3 +35,18 @@ _Parameters explained_
 - --amino :: input sequences are amino acid (proteinn)
 - sialin.hmm :: name of the output hmm file
 - sialin.aligned.fasta :: name of the input fasta alignment
+
+### Step 3: Seach an input file of protein sequences with a HMM
+Use `hmmsearch` to compare ≥1 protein sequencce against a single HMM, whereas `hmmscan` is for searching a protein database with a database of HMMs.
+```bash
+hmmsearch \
+   -o sialin.matches \
+   --tbl sialin.matches.tsv \
+   sialin.hmm \
+   sialin.fa
+```
+_Parameters explained_
+- -o sialin.matches :: name of the full output generated
+- --tbl sialin.matches.tsv :: a tab-separated table of the results, easier to parse in Excel or R
+- sialin.hmm :: name of the hmm file to use
+- sialin.fasta :: name of the input fasta file of unaligned protein sequences
