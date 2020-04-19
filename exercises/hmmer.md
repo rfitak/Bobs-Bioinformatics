@@ -23,5 +23,15 @@ make install
 
 ### Step 2:  Build a HMM from an alignment of sialin protein sequences
 ```bash
-#tbd
+# Build the HMM
+hmmbuild \
+   -n sialin \
+   --amino \
+   sialin.hmm \
+   sialin.aligned.fasta
 ```
+_Parameters explained_
+- -n sialin :: name of the hmm
+- --amino :: input sequences are amino acid (proteinn)
+- sialin.hmm :: name of the output hmm file
+- sialin.aligned.fasta :: name of the input fasta alignment
