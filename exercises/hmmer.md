@@ -1,7 +1,7 @@
 # Building and Using Hidden Markov Models (HMM) with HMMER
 description
 
-# Step 1:  Install ___hmmer v3.3___
+### Step 1:  Install ___hmmer v3.3___
 _Install hmmer v3.3 (Mac OSX)_
 ```bash
 # Download the program source code from hmmer.org
@@ -21,4 +21,7 @@ make install
    # or `sudo make install` if you need to login to root
 ```
 
-#
+### Step 2:  Build a HMM from an alignment of sialin protein sequences
+```bash
+#tbd
+```
