@@ -18,3 +18,25 @@ This dataset is from [Kaggle](www.kaggle.com) and can be downloaded here: https:
 unzip("fruits.zip")
 ```
 
+### Step 4:  xxxxxxx
+
+```r
+# list of fruits to include
+fruit_list <- c("Kiwi", "Banana", "Apricot", "Avocado", "Cocos", "Clementine", "Mandarine", "Orange",
+   "Limes", "Lemon", "Peach", "Plum", "Raspberry", "Strawberry", "Pineapple", "Pomegranate")
+
+# Number of output classes (i.e. types of fruits)
+output_n <- length(fruit_list)
+
+# Image size to scale down to (original images are 100 x 100 px)
+img_width <- 20
+img_height <- 20
+target_size <- c(img_width, img_height)
+
+# RGB = 3 channels
+channels <- 3
+
+# path to image folders
+train_image_files_path <- "./fruits-360_dataset/fruits-360/Training/"
+valid_image_files_path <- "./fruits-360_dataset/fruits-360/Validation/"
+```
