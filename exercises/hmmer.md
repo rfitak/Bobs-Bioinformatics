@@ -50,3 +50,24 @@ _Parameters explained_
 - --tbl sialin.matches.tsv :: a tab-separated table of the results, easier to parse in Excel or R
 - sialin.hmm :: name of the hmm file to use
 - sialin.fasta :: name of the input fasta file of unaligned protein sequences
+
+### Step 4:  Compare HMM to entire O. bimaculoides proteome
+```bash
+# Download octopus proteome (found the URL through the NCBI Taxonomy browser
+curl -O https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/194/135/GCF_001194135.1_Octopus_bimaculoides_v2_0/GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
+
+# Uncompress the protein sequences and channge name
+gunzip GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
+mv GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa Obimac.faa
+
+# Count how many sequencnes there are
+grep -c "^>" Obimac.faa
+   # Result: 23,994
+
+# Compare HMM to proteome
+hmmsearch \
+   -o sialin.matches \
+   --tbl sialin.matches.tsv \
+   sialin.hmm \
+   Obimac.faa
+```
