@@ -1,10 +1,15 @@
 # Building and Using Hidden Markov Models (HMM) with HMMER
-description
+From the [HMMER manual](http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf):  
+HMMER is used to search sequence datasets for homologs of protein or DNA sequences, and to make sequence alignments. HMMER can be used to search a sequence databases with single query sequences but it becomes particularly powerful when the query is an alignment of multiple instances of a sequence family. HMMER makes a profile of the query that assigns a position-specific scoring system for substitutions, insertions, and deletions. HMMER profiles are probabilistic models called “profile hidden Markov models” (profile HMMs).
+Compared to BLAST, FASTA, and other sequence alignment and database search tools based on older scoring methodology, HMMER aims to be significantly more accurate and more able to detect remote homologs, because of the strength of its underlying probability models. In the past, this strength came at a significant computational cost, with profile HMM implementations running about 100x slower than comparable BLAST searches for protein search, and about 1000x slower than BLAST searches for DNA search. With HMMER3.1, HMMER is now essentially as fast as BLAST for protein search, and roughly 5-10x slower than BLAST in DNA search.
+
+__Note__
+To get the manual for one of the programs in HMMER, use either `man hmmer`, or specifically for one of the tools use `man hmmsearch` or `hmmsearch -h`, or lastly refer to the [HMMER manual](http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf)
 
 ### Step 1:  Install ___hmmer v3.3___
 _Install hmmer v3.3 (Mac OSX)_
 ```bash
-# Download the program source code from hmmer.org
+# Download the program source code from hmmer.org (v3.3)
 curl -O http://eddylab.org/software/hmmer/hmmer.tar.gz
 
 # Unpack the tarball
