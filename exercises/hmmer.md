@@ -61,7 +61,7 @@ _Parameters explained_
 # Download octopus proteome (found the URL through the NCBI Taxonomy browser
 curl -O https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/194/135/GCF_001194135.1_Octopus_bimaculoides_v2_0/GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
 
-# Uncompress the protein sequences and channge name
+# Uncompress the protein sequences and change name
 gunzip GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
 mv GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa Obimac.faa
 
