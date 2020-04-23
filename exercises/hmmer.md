@@ -58,14 +58,14 @@ _Parameters explained_
 
 ### Step 4:  Compare HMM to entire O. bimaculoides proteome
 ```bash
-# Download octopus proteome (found the URL through the NCBI Taxonomy browser
+# Download octopus proteome (found the URL through the NCBI Taxonomy browser)
 curl -O https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/194/135/GCF_001194135.1_Octopus_bimaculoides_v2_0/GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
 
 # Uncompress the protein sequences and change name
 gunzip GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa.gz
 mv GCF_001194135.1_Octopus_bimaculoides_v2_0_protein.faa Obimac.faa
 
-# Count how many sequencnes there are
+# Count how many sequences there are
 grep -c "^>" Obimac.faa
    # Result: 23,994
 
