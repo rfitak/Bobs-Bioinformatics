@@ -51,7 +51,7 @@ This respository is simply a collection of links, tutorials, code, presentations
   - [machine learning cheatsheet](./pdf/keras.pdf)
 - [A Guide to Plotting in R](./pdf/R-plotting.pdf)
   - if you plan on making lots of nice figures for publications, refer to this guide!
-- [Quick R](http://www.statmethods.net/) - I used iy quite a bit for learning the basics
+- [Quick R](http://www.statmethods.net/) - I used it quite a bit for learning the basics
 - [R Cookbook](http://www.cookbook-r.com/) - I never used it but it comes highly recommended
 - Full R courses, online and FREE :)
   - [swirl](http://swirlstats.com/): “swirl teaches you R programming and data science interactively, at your own pace, and right in the R console”
@@ -73,7 +73,7 @@ This respository is simply a collection of links, tutorials, code, presentations
 - [Introduction to Computational Biology](https://biodatascience.github.io/compbio/) by Michael Love
   - Lots of super handy little vignettes for learning various tools or dealing with various issues.
 - [Bioinformatics Workbook](https://bioinformaticsworkbook.org)
-  - a reasonable set of quick tutorials to do a variety of different things with biologival, especially, genetic data
+  - a reasonable set of quick tutorials to do a variety of different things with biological, especially, genetic data
 - [Learning Bioinformatics at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) by the Harvard Informatics Group
 - [Lockdown Learning Bioinformatics](https://www.youtube.com/watch?v=butxOf_fxTY&list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) by Simon Cockell
   - a 14-part video series on YouTube videos to teach basic bioinformatics from the ground up.  Do 1-a-day!
