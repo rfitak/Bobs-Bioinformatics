@@ -16,7 +16,7 @@ rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.oit.ucf.edu
 <br>
 
 ### SLURM Quickies
-Short commands I often use to check the status or retrieve innformation about resources (e.g., memory, time) each job used
+Short commands I often use to check the status or retrieve information about resources (e.g., memory, time) each job used
 ```bash
 # Submit a job
 sbatch bobjob1.sh
@@ -41,6 +41,24 @@ sacct -j 179506 --units=G
 <br>
 
 ### Making and unpacking Tarballs
+More often than not, a folder of files is shared in format called a "tarball".  This tarball is often compressed with `gzip` and shared as a file in the form `<name>.tar.gz`.  Large datasets, and especially software packages, are shared in this format.  Here are a few of the most common ways to deal with them.
 ```bash
-#TBD
+# Most common: Unpack a tarball into a folder of files
+tar -zxvf file.tar.gz
+   # -z :: uncompress using gzip (gunzip)
+   # -x :: extract the contents of the tarball
+   # -v :: verbose output for debugging and trackinng errors
+   # -f :: input is a file
+
+# List the contents of a tarball (sometimes you only want a few files, not the entire contents.  This saves space.
+tar -tvf file.tar.gz
+   # -t :: list the contents of the tar archive
+
+# Extract just one of the files (Folder/file.1.txt) listed in the output above
+tar -zxvf file.tar.gz Folder/file1.txt
+
+# Make your own tarball from a folder of files
+tar -zcvf test.tar.gz TEST-FOLDER
+   # -z :: compress using gzip
+   # -c :: create a new archive from a folder
 ```
