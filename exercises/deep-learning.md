@@ -40,3 +40,7 @@ channels <- 3
 train_image_files_path <- "./fruits-360_dataset/fruits-360/Training/"
 valid_image_files_path <- "./fruits-360_dataset/fruits-360/Validation/"
 ```
+
+
+## Notes
+https://github.com/hussius/deeplearning-biology
