@@ -81,5 +81,5 @@ conda install -c bioconda fastq_utils
 conda list
 
 # Once finished with analyses, deactivate conda environment
-source deactivate
+conda deactivate
 ```
