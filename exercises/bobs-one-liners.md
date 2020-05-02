@@ -62,3 +62,24 @@ tar -zcvf test.tar.gz TEST-FOLDER
    # -z :: compress using gzip
    # -c :: create a new archive from a folder
 ```
+
+_Anaconda (conda) environments on COOMBS cluster_
+```bash
+# Load anaconda
+module load anaconda3/97
+
+# Initialize an 'environment' (only need to do once)
+conda create -y -n conda-env
+
+# Load/activate the environment
+source activate conda-env
+
+# Install a program that uses conda
+conda install -c bioconda fastq_utils
+
+# See a list of installed programs in conda
+conda list
+
+# Once finished with analyses, deactivate conda environment
+source deactivate
+```
