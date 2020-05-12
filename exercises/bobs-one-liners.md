@@ -1,5 +1,11 @@
 # Bob's One Liners
 
+```bash
+# Use awk to fill the SNP ID column of a vcf file
+awk 'BEGIN {x=1} {OFS="\t"} !/^#/ {$3="SNP_"x++} {print}' input.vcf > output.vcf
+   # replaces "." in the VCF's ID column with "SNP_X", X = a simple counter.
+```
+
 ### File transfer (`scp`, `rsync`)
 For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
 ```bash
