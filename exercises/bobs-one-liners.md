@@ -60,6 +60,9 @@ sacct -j 179506 -u rfitak --format="CPUTime,MaxRSS,JobID" --units=G
 # Set a new default format for job info using ann environmental variable
 export SACCT_FORMAT="JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS"
 sacct -j 179506 --units=G
+
+# Run an interactive job with bash (log into a node just like a normal ssh session: USE SPARINGLY!)
+srun --pty -I bash
 ```
 
 <br>
