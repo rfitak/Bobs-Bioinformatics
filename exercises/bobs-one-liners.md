@@ -110,3 +110,36 @@ conda list
 # Once finished with analyses, deactivate conda environment
 conda deactivate
 ```
+
+### Working with the NCBI taxonomy database using the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)
+_Install the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)_
+```bash
+# Using conda
+module load anaconda3/97
+
+# Load/activate the environment
+source activate conda-env
+
+# Install ETE
+conda install -c etetoolkit ete3 ete_toolchain
+conda install -c etetoolkit ete3_external_tools
+ete3 upgrade-external-tools
+
+# Check installation
+ete3 build check
+```
+
+_Examples:_
+```bash
+# Get full lineage info for a species name ("Canis familiaris") and taxon ID (9606 = humans)
+ete3 ncbiquery --search 9606 'Canis familiaris'  --info
+
+# Display tree in terminal for selected taxa
+ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree | ete3 view --ncbi --text
+
+# Save as a newick tree file
+ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree > tree.nwk
+
+# Once finished with analyses, deactivate conda environment
+conda deactivate
+```
