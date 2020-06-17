@@ -111,6 +111,8 @@ conda list
 conda deactivate
 ```
 
+<br>
+
 ### Working with the NCBI taxonomy database using the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)
 _Install the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)_
 ```bash
