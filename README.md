@@ -82,3 +82,4 @@ This respository is simply a collection of links, tutorials, code, presentations
   - [link to the 2017 workshop materials](https://github.com/stenglein-lab/2017_GDW) (lectures, tutorials, exercies, etc.)
   - [link to the 2018 workshop materials](https://github.com/gdw-workshop/2018_GDW_Workshop/) (lectures, tutorials, exercies, etc.)
   - [link to the 2019 workshop materials](https://github.com/gdw-workshop/2019_GDW_Workshop) (lectures, tutorials, exercies, etc.)
+  - [link to the 2021 workshop materials](https://github.com/gdw-workshop/2021_GDW_Workshop) (lectures, tutorials, exercies, etc.)
