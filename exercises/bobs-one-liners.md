@@ -145,3 +145,34 @@ ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree > tree.n
 # Once finished with analyses, deactivate conda environment
 conda deactivate
 ```
+
+### Make a random ID code for labeling samples in the lab using R
+_For 500 samples using 3 letters_
+```R
+cat(
+   paste0(
+      sample(
+         apply(
+            expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F),
+         1, paste, collapse = ""),
+      500),
+   formatC(c(1:500), width = 3, flag = "0")),
+sep = "\n")
+
+# As one line:
+cat(paste0(sample(apply(expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F), 1, paste, collapse = ""), 500), formatC(c(1:500), width = 3, flag = "0")), sep = "\n")
+```
+_For 17,576 samples using 3 letters_
+```R
+cat(
+   paste0(
+      sample(
+         apply(
+            expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F),
+         1, paste, collapse = "")),
+   formatC(c(1:17576), width = 5, flag = "0")),
+sep = "\n")
+
+# As one line:
+cat(paste0(sample(apply(expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F), 1, paste, collapse = "")), formatC(c(1:17576), width = 5, flag = "0")), sep = "\n")
+```
