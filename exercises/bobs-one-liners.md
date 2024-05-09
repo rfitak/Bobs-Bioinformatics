@@ -28,13 +28,13 @@ sips -r 352 --padColor FFFFFF file.jpg
 For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
 ```bash
 # scp a file
-scp file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
+scp file.tar.gz rfitak@coombs.cs.ucf.edu:~/FOLDER/
 
 # scp a folder and its contents
-scp -r rfitak@coombs.oit.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
+scp -r rfitak@coombs.cs.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
 
 # rsync
-rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.oit.ucf.edu:~/FOLDER/
+rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.cs.ucf.edu:~/FOLDER/
 ```
 
 <br>
@@ -93,7 +93,7 @@ tar -zcvf test.tar.gz TEST-FOLDER
 _Anaconda (conda) environments on COOMBS cluster_
 ```bash
 # Load anaconda
-module load anaconda3/97
+module load anaconda3/2024.02-1
 
 # Initialize an 'environment' (only need to do once)
 conda create -y -n conda-env
@@ -117,7 +117,7 @@ conda deactivate
 _Install the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)_
 ```bash
 # Using conda
-module load anaconda3/97
+module load anaconda3/2024.02-1
 
 # Load/activate the environment
 source activate conda-env
