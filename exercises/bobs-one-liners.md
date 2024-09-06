@@ -20,8 +20,8 @@ awk 'BEGIN {x=1} {OFS="\t"} !/^#/ {$3="SNP_"x++} {print}' input.vcf > output.vcf
 # Check if a particular perl module is installed (e.g., XML::Parser)
 perl -MXML::Parser -e "print \"Module installed.\\n\";"
 
-# Rotate a photo custom degrees and fill with white (not really bioinformatics???)
-sips -r 352 --padColor FFFFFF file.jpg
+# Rotate a photo custom degrees and fill with white (not really bioinformatics???) (-r = degrees clockwise)
+sips -r 352 --padColor FFFFFF infile.jpg --out outfile.jpg
 ```
 
 ### File transfer (`scp`, `rsync`)
