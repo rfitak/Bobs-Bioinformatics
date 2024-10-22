@@ -157,7 +157,7 @@ apptainer version
 # download/build container from repository (example using BUSCO)
 # Must be on a compute node
 srun --pty -I bash  # login to a computer node as interactive job
-singularity pull busco_5.8.1.sif  docker://ezlabgva/busco:v5.8.1_cv1
+singularity pull busco_5.8.0.sif  docker://ezlabgva/busco:v5.8.0_cv1
 
 # Run a container (sif) once built
 singularity exec -e /path/to/delly_v1.1.6.sif delly
