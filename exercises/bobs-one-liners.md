@@ -146,6 +146,27 @@ ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree > tree.n
 conda deactivate
 ```
 
+### Working with the Singularity containers on Coombs
+```bash
+# Load module
+module load singularity   # v1.0.3
+# alternatively, just use the command 'apptainer'
+apptainer version
+   # 1.0.3
+
+# download/build container from repository (example using BUSCO)
+# Must be on a compute node
+srun --pty -I bash  # login to a computer node as interactive job
+singularity pull busco_5.8.1.sif  docker://ezlabgva/busco:v5.8.1_cv1
+
+# Run a container (sif) once built
+singularity exec -e /path/to/delly_v1.1.6.sif delly
+singularity exec -e /path/to/provean\:1.1.5--h87f3376_1 provean
+
+# Exit interactive job on the compute node
+exit
+```
+
 ### Make a random ID code for labeling samples in the lab using R
 _For 500 samples using 3 letters_
 ```R
