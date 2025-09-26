@@ -33,7 +33,8 @@ This respository is simply a collection of links, tutorials, code, presentations
 
 
 ### Module 4:  Simple processing of genetic data on the CLI
-- First... you must learn how to "grep" (pattern matching)
+- [Getting Started on Coombs at UCF](./exercises/Coombs.md)
+- You must learn how to "grep" (pattern matching)
   - [An introduction to grep](https://informatics.fas.harvard.edu/short-introduction-to-grep.html) by Harvard Informatics
 - Bioinformatic One-Liners
   - [Stephen Turner](./exercises/one-liners.md)
