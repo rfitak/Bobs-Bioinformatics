@@ -56,6 +56,23 @@ md5sum -c MD5.txt
    # the "-c" means to check all the tags listed in the following file, 1 tag per line.
 ```
 ---
+### Setting up your "profile"
+```bash
+# View all files, including hidden ones
+ls -a
+
+# Assuming no file called ".bash_aliases" exists, make one
+touch .bash_aliases
+   # We will added customizations, aliases, etc to this file
+   # which is read everytime you log in to the cluster.
+# Make a hidden folder in your HOME folder (i.e., $HOME or ~) called "local"
+   # in the future, this is where you should install software.
+mkdir .local
+
+# Add it permanently to your path
+echo "export PATH=${HOME}/.local/bin:${PATH}" >> .bash_aliases
+```
+---
 ### SLURM Quickies
 Short commands I often use to check the status or retrieve information about resources (e.g., memory, time) each job used
 ```bash
