@@ -18,44 +18,27 @@ coombs
 echo "alias coombs='ssh -Y username@coombs.cs.ucf.edu'" >> ~/.bash_profile
 ```
 
-### File transfer (`scp`, `rsync`)
-
-
-
-
-# Covert fastq to fasta format (perl version)
-perl -e '$i=0;while(<>){if(/^\@FCC/&&$i==0){s/^\@/\>/;print;}elsif($i==1){print;$i=-3}$i++;}' input.fq > output.fa
-
-# Convert fasta to non-interleaved format (seqtk version)
-seqtk seq -l0 input.fa > output.fa
-
-# Convert fasta to non-interleaved format (perl version)
-perl -ne 'chomp $_; if ($_ =~ /^>/){print "\n$_\n";}else { print "$_";}' input.fa | sed '1d' > out.fa
-
-# Use awk to fill the SNP ID column of a vcf file
-awk 'BEGIN {x=1} {OFS="\t"} !/^#/ {$3="SNP_"x++} {print}' input.vcf > output.vcf
-   # replaces "." in the VCF's ID column with "SNP_X", X = a simple counter.
-
-# Check if a particular perl module is installed (e.g., XML::Parser)
-perl -MXML::Parser -e "print \"Module installed.\\n\";"
-
-# Rotate a photo custom degrees and fill with white (not really bioinformatics???) (-r = degrees clockwise)
-sips -r 352 --padColor FFFFFF infile.jpg --out outfile.jpg
-```
-
-### File transfer (`scp`, `rsync`)
+### File transfer to and from Coombs (`scp`, `rsync`)
 For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
 ```bash
-# scp a file
-scp file.tar.gz rfitak@coombs.cs.ucf.edu:~/FOLDER/
+# Copy a file securely to Coombs
+scp file.tar.gz username@coombs.cs.ucf.edu:~/PATH/TO/FOLDER/
 
-# scp a folder and its contents
-scp -r rfitak@coombs.cs.ucf.edu:~/FOLDER/SOURCE LOCAL/DESTINATION
+# Copy a folder and its contents securely to Coombs
+scp -r LOCAL/DESTINATION username@coombs.cs.ucf.edu:~/PATH/TO/FOLDER/
 
-# rsync
-rsync --rsh='ssh' -av --progress --partial file.tar.gz rfitak@coombs.cs.ucf.edu:~/FOLDER/
+# Copy a file securely from Coombs to local computer
+scp username@coombs.cs.ucf.edu:~/PATH/TO/FOLDER/file.tar.gz /LOCAL/FOLDER/
+
+# Copy a folder and its contents securely from Coombs to local computer
+scp -r username@coombs.cs.ucf.edu:~/PATH/TO/FOLDER/ LOCAL/FOLDER
+
+# Using rsync for copying a file to Coombs
+rsync --rsh='ssh' -av --progress --partial file.tar.gz username@coombs.cs.ucf.edu:~/FOLDER/
+
+# Using rsync for copying a file from Coombs to local computer
+rsync --rsh='ssh' -av --progress --partial username@coombs.cs.ucf.edu:~/FOLDER/file /LOCAL/FOLDER
 ```
-
 <br>
 
 ### SLURM Quickies
