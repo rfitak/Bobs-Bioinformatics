@@ -17,7 +17,7 @@ coombs
 # Save your alias permanently on your personal computer:
 echo "alias coombs='ssh -Y username@coombs.cs.ucf.edu'" >> ~/.bash_profile
 ```
-
+---
 ### File transfer to and from Coombs (`scp`, `rsync`)
 For a small file transfer, I often use `scp`, but ___ALWAYS___ use `rsync` for large files (> a few GB)
 ```bash
@@ -39,8 +39,23 @@ rsync --rsh='ssh' -av --progress --partial file.tar.gz username@coombs.cs.ucf.ed
 # Using rsync for copying a file from Coombs to local computer
 rsync --rsh='ssh' -av --progress --partial username@coombs.cs.ucf.edu:~/FOLDER/file /LOCAL/FOLDER
 ```
-<br>
+---
+### Checking and confirming file transfers
+It is good practice when transferring files, especially when sharing with colleagues, to confirm that the file was transferred perfectly. This is done using an MD5 hash. MD5 (Message-Digest algorithm 5) is a cryptographic hash function that takes any input data and produces a unique, fixed-size 128-bit hash value or fingerprint. Its primary purpose is to verify data integrity by creating a unique "fingerprint" of a file or message, allowing users to check if the data has been altered or corrupted during transmission or storage.
 
+```bash
+# Print MD5 for a file
+md5sum file
+
+# Save MD5 for all files in a folder in a new file:
+md5sum * > MD5.txt
+
+# If someone sent you the folder above and the MD5.txt file,
+# You can confirm each MD5 like this:
+md5sum -c MD5.txt
+   # the "-c" means to check all the tags listed in the following file, 1 tag per line.
+```
+---
 ### SLURM Quickies
 Short commands I often use to check the status or retrieve information about resources (e.g., memory, time) each job used
 ```bash
