@@ -179,34 +179,3 @@ singularity exec -e /path/to/busco_5.8.0.sif busco
 # Exit interactive job on the compute node
 exit
 ```
-
-### Make a random ID code for labeling samples in the lab using R
-_For 500 samples using 3 letters_
-```R
-cat(
-   paste0(
-      sample(
-         apply(
-            expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F),
-         1, paste, collapse = ""),
-      500),
-   formatC(c(1:500), width = 3, flag = "0")),
-sep = "\n")
-
-# As one line:
-cat(paste0(sample(apply(expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F), 1, paste, collapse = ""), 500), formatC(c(1:500), width = 3, flag = "0")), sep = "\n")
-```
-_For 17,576 samples using 3 letters_
-```R
-cat(
-   paste0(
-      sample(
-         apply(
-            expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F),
-         1, paste, collapse = "")),
-   formatC(c(1:17576), width = 5, flag = "0")),
-sep = "\n")
-
-# As one line:
-cat(paste0(sample(apply(expand.grid(LETTERS, LETTERS, LETTERS, stringsAsFactors = F), 1, paste, collapse = "")), formatC(c(1:17576), width = 5, flag = "0")), sep = "\n")
-```
