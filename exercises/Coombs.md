@@ -148,39 +148,6 @@ conda deactivate
 
 <br>
 
-### Working with the NCBI taxonomy database using the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)
-_Install the [ETE toolkit](http://etetoolkit.org/documentation/ete-ncbiquery/)_
-```bash
-# Using conda
-module load anaconda3/2024.02-1
-
-# Load/activate the environment
-source activate conda-env
-
-# Install ETE
-conda install -c etetoolkit ete3 ete_toolchain
-conda install -c etetoolkit ete3_external_tools
-ete3 upgrade-external-tools
-
-# Check installation
-ete3 build check
-```
-
-_Examples:_
-```bash
-# Get full lineage info for a species name ("Canis familiaris") and taxon ID (9606 = humans)
-ete3 ncbiquery --search 9606 'Canis familiaris'  --info
-
-# Display tree in terminal for selected taxa
-ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree | ete3 view --ncbi --text
-
-# Save as a newick tree file
-ete3 ncbiquery --search 9606 'Mus musculus' 'Gallus gallus' 7227 --tree > tree.nwk
-
-# Once finished with analyses, deactivate conda environment
-conda deactivate
-```
-
 ### Working with the Singularity containers on Coombs
 ```bash
 # Load module
@@ -196,7 +163,7 @@ singularity pull busco_5.8.0.sif  docker://ezlabgva/busco:v5.8.0_cv1
 
 # Run a container (sif) once built
 singularity exec -e /path/to/delly_v1.1.6.sif delly
-singularity exec -e /path/to/provean\:1.1.5--h87f3376_1 provean
+singularity exec -e /path/to/busco_5.8.0.sif busco
 
 # Exit interactive job on the compute node
 exit
