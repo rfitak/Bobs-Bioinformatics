@@ -106,7 +106,7 @@ srun --pty -I bash
 <br>
 
 ### Making and unpacking Tarballs
-More often than not, a folder of files is shared in format called a "tarball".  This tarball is often compressed with `gzip` and shared as a file in the form `<name>.tar.gz`.  Large datasets, and especially software packages, are shared in this format.  Here are a few of the most common ways to deal with them.
+More often than not, a folder of files is shared in format called a "tarball".  This tarball is often compressed with `gzip` and shared as a file in the form `<name>.tar.gz`.  Large datasets, and especially software packages, are shared in this format.  Sometimes, the compressed formats of `xz` and `bz2` are used. Here are a few of the most common ways to deal with them.
 ```bash
 # Most common: Unpack a tarball into a folder of files
 tar -zxvf file.tar.gz
@@ -126,6 +126,14 @@ tar -zxvf file.tar.gz Folder/file1.txt
 tar -zcvf test.tar.gz TEST-FOLDER
    # -z :: compress using gzip
    # -c :: create a new archive from a folder
+
+# Working with xz files (slow but high compression)
+tar -cvJf /path/to/FOLDER.xz FOLDER   # compress
+tar -xvJf /path/to/FOLDER.xz          # extract
+
+# Working with bz2 files
+tar -cvjf /path/to/FOLDER.bz2 FOLDER   # compress
+tar -xvjf /path/to/FOLDER.bz2          # extract
 ```
 
 _Anaconda (conda) environments on COOMBS cluster_
