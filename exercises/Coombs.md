@@ -65,6 +65,7 @@ ls -a
 touch .bash_aliases
    # We will added customizations, aliases, etc to this file
    # which is read everytime you log in to the cluster.
+
 # Make a hidden folder in your HOME folder (i.e., $HOME or ~) called "local"
    # in the future, this is where you should install software.
 mkdir .local
