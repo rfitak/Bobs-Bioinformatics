@@ -1,5 +1,5 @@
 # Getting Started on Stokes at UCF
-Stokes is the high-performance computing (HPC) cluster for the Genomics and Bioinformatics Cluster at UCF. You can find a brief description and mini documentation of Stokes here: [http://newton.i2lab.ucf.edu/wiki/Help:Coombs](https://rci.research.ucf.edu/resource/stokes/).
+Stokes is the high-performance computing (HPC) cluster for the Genomics and Bioinformatics Cluster at UCF. You can find a brief description and mini documentation of Stokes here: https://rci.research.ucf.edu/resource/stokes/.
 
 ```bash
 # Login to stokes (NOTE: must be connected to the VPN)
