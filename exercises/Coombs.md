@@ -90,7 +90,7 @@ sacct -S 3.31.20 -u rfitak
 sacct -j 179506 -u rfitak -l
 
 # Same as above but only certain columns of information, change memory to (G)igabytes
-sacct -j 179506 -u rfitak --format="CPUTime,MaxRSS,JobID" --units=G
+sacct -j 179506 -u rfitak --format="NCPUS,CPUTime,MaxRSS,JobID" --units=G
 
 # Set a new default format for job info using ann environmental variable
 export SACCT_FORMAT="JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS"
@@ -99,8 +99,11 @@ sacct -j 179506 --units=G
 # Add the new format permanently to your environment
 echo "export SACCT_FORMAT=\"JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS\"" >> .bash_aliases
 
-# Run an interactive job with bash (log into a node just like a normal ssh session: USE SPARINGLY!)
-srun --pty -I bash
+# Run an interactive job with bash (log into a node just like a normal ssh session:
+srun --pty bash          # default is 1 cpu
+srun -c 4 --pty bash     # run interactive job with 4 cpus
+srun -c 4 --nodelist=ec28 --pty bash     # run interactive job with 4 cpus on node "ec28"
+srun --mem=64G --nodelist=ec28 --pty bash     # run interactive job with a total of 64G memory on node "ec28"
 ```
 
 <br>
