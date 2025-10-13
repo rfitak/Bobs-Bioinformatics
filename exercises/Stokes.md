@@ -92,12 +92,14 @@ sacct -j 179506 -u username -l
 # Same as above but only certain columns of information, change memory to (G)igabytes
 sacct -j 179506 -u username --format="NCPUS,CPUTime,MaxRSS,JobID" --units=G
 
-# Set a new default format for job info using ann environmental variable
+# Set a new default formats for job info using environmental variables
 export SACCT_FORMAT="JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS"
+export SQUEUE_FORMAT2="JobId,Name,UserName,NumCPUS,MinMemory,TimeUsed"
 sacct -j 179506 --units=G
 
 # Add the new format permanently to your environment
-echo "export SACCT_FORMAT=\"JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS\"" >> .bashrc
+echo "export SACCT_FORMAT=\"JobId,JobName,User,Account,NCPUS,Elapsed,MaxRSS\"" >> ~/.bashrc
+echo "export SQUEUE_FORMAT2=\"JobId,Name,UserName,NumCPUS,MinMemory,TimeUsed\"" >> ~/.bashrc
 
 # Run an interactive job with bash (log into a node just like a normal ssh session:
 srun --pty bash          # default is 1 cpu
