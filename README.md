@@ -21,6 +21,7 @@ This respository is simply a collection of links, tutorials, code, presentations
   - [One of my powerpoint lectures](./pdf/Fitak_GWD2019_CommandLine.pdf) by Bob Fitak
   - [Introduction to the Unix CLI](./exercises/command-line-tutorial.md) tutorial, by Bob Fitak, uses a basic BASH terminal on a Mac
 - Complete introductory Unix CLI training tutorials/courses
+  - [Learning the Shell: A Beginner's tutorial](https://linuxcommand.org/lc3_learning_the_shell.php)
   - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
   - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
   - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
